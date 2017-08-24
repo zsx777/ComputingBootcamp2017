@@ -30,11 +30,11 @@ A couple things to get everyone on the same page,
 - Slides and all source code at https://github.com/DukeStatSci/ComputingBootcamp2017
 
 
-- *Very* useful resources from RStudio:
-    + [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+- *Very* useful resources from RStudio: https://www.rstudio.com/resources/cheatsheets/
+    + [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
     + [R Markdown reference guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
-    + [Data wrangling with dplyr and tidyr cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
-    + [Data visualization with ggplot2 cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/05/ggplot2-cheatsheet.pdf)
+    + [Data transformation with dplyr sheet](https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/data-transformation-cheatsheet.pdf)
+    + [Data visualization with ggplot2 cheat sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
 
 
 # Reproducibility: who cares?
