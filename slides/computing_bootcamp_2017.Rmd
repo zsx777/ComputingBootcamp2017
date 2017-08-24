@@ -1,22 +1,41 @@
 ---
 title: "DSS Comptuing Bootcamp"
 author: "Mine Çetinkaya-Rundel and Colin Rundel"
-date: "Aug 24 and Aug 26, 2016"
+date: "Aug 24, 2017"
 output:
   ioslides_presentation:
     highlight: pygments
     widescreen: yes
 ---
 
+## Before we start
+
+A couple things to get everyone on the same page,
+
+- If you don't have one, sign up for a GitHub account (it takes 1 min.)
+    + Go to https://github.com/join
+    + Enter your information
+    + Pick the `Unlimited public repositories for free.` plan
+
+<br/>
+
+- Try logging into (one of) the department's RStudio servers
+    + Master's students: http://saxon.stat.duke.edu:8787
+    + PhD students: http://smith.stat.duke.edu:8787
+    + Login and password are your `netid` and associated password.
+
+
 ## Materials
 
-- Slides at http://bit.ly/comp_boot_slides
-- All source code at http://bit.ly/comp_boot_repo
+- Slides and all source code at https://github.com/DukeStatSci/ComputingBootcamp2017
+
+
 - *Very* useful resources from RStudio:
     + [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
     + [R Markdown reference guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
     + [Data wrangling with dplyr and tidyr cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
     + [Data visualization with ggplot2 cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/05/ggplot2-cheatsheet.pdf)
+
 
 # Reproducibility: who cares?
 
@@ -114,22 +133,7 @@ Train new researchers who don’t have any other workflow
     
 - Home directories are all network shared and backed up
 
-- DSS computing inventory: https://stat.duke.edu/resources/computing/inventory.html
-
-## Remote connections
-
-- You will be doing much of your work on remote linux systems, primarily 
-you will be interacting with these machines through a remote terminal and 
-a shell. Using a shell gives you more power to do more tasks more 
-efficiently with your computer.
-
-- OSX / Unix / Linux - these tools should already be installed and you 
-should be able to access your shell through the Terminal application (name 
-may vary slightly depending on your OS).
-
-- Windows - there are several ways to install bash or a bash-like shell, 
-the preferred method is to install the `git for windows` package: 
-https://git-for-windows.github.io/.
+- DSS computing inventory: https://www2.stat.duke.edu/lib/computer_inventory.php
 
 ## Accessing RStudio
 
@@ -214,11 +218,13 @@ If you avoid authoring for the web, because you're not sure how ...
 
 **start writing in Markdown**!
 
-## Download Rmd template and upload to RStudio
 
-- Go to http://bit.ly/dss_comp_boot_temp and save the Rmd file
+# Using RStudio
 
-- Then, upload to RStudio
+## A brief foray into GitHub
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/dpeGSpubszU?ecver=1" frameborder="0" allowfullscreen></iframe>
+
 
 ## R packages {.smaller}
 
@@ -229,7 +235,7 @@ and sample data.
 - In the following exercises we'll use the `dplyr` and `ggplot2` 
 packages.
 
-- Install these packages bu running the following in the *Console*
+- Install these packages by running the following in the *Console*
 
 ```{r eval = FALSE}
 install.packages("dplyr")
@@ -350,12 +356,27 @@ Source: Grolemund and Wickham, R for Data Science, http://r4ds.had.co.nz/
 
 # On to ssh
 
+## Remote connections
+
+- You will be doing much of your work on remote linux systems, primarily 
+you will be interacting with these machines through a remote terminal and 
+a shell. Using a shell gives you more power to do more tasks more 
+efficiently with your computer.
+
+- OSX / Unix / Linux - these tools should already be installed and you 
+should be able to access your shell through the Terminal application (name 
+may vary slightly depending on your OS).
+
+- Windows - there are several ways to install bash or a bash-like shell, 
+the preferred method is to install the `git for windows` package: 
+https://git-for-windows.github.io/.
+
 ## Secure shell (ssh)
 
 - A secure tool for connecting and interacting with remote systems
 - Uses public key encryption
 - Run a single command or work interactively
-- Lots of other neat tricks (proxy, port forwarding, many more)
+- Lots of other neat tricks (proxying, port forwarding, etc.)
 
 ## Connecting to saxon / smith
 
@@ -469,11 +490,9 @@ Your closest collaborator is you six months ago, but you don’t reply to emails
 
 ## Git live demo
 
-- Create a GitHub account
+- Forking a repository on GitHub
 
-- Create a repository locally
-
-- Connect local repository to GitHub
+- Create a local copy of a repository
 
 - Working with a local and remote repository
 
