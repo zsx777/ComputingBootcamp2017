@@ -1,5 +1,5 @@
 ---
-title: "DSS Computing Bootcamp Template"
+title: "Gapminder Exercise Template"
 author: "Mine Cetinkaya-Rundel"
 date: "8/21/2015"
 output: html_document
