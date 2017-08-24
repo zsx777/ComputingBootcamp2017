@@ -117,32 +117,6 @@ Train new researchers who don’t have any other workflow
 - Version control $\rightarrow$ git / GitHub
 
 
-# Departmental computing resources
-
-## Departmental computing resources
-
-- Graduate student computers are shared departmental resources
-    + You'll be assigned a desktop to which you have priority, but it may 
-    be used by others as well (and you can use others' later if needed -- 
-    more on this later)
-
-- Dedicated servers: 
-    + `gort`: Undergrad
-    + `saxon`: MS
-    + `smith`: PhD
-    
-- Home directories are all network shared and backed up
-
-- DSS computing inventory: https://www2.stat.duke.edu/lib/computer_inventory.php
-
-## Accessing RStudio
-
-- Go to 
-    + PhD: http://smith.stat.duke.edu:8787/
-    + MS: http://saxon.stat.duke.edu:8787/
-
-- Log in with your Net ID and password
-
 # Scripting and literate programming 
 
 ## Donald Knuth "Literate Programming (1983)"
@@ -220,6 +194,15 @@ If you avoid authoring for the web, because you're not sure how ...
 
 
 # Using RStudio
+
+## Accessing RStudio
+
+- Go to 
+    + PhD: http://smith.stat.duke.edu:8787/
+    + MS: http://saxon.stat.duke.edu:8787/
+    + UG: http://gort.stat.duke.edu:8787/
+
+- Log in with your `netid` and password
 
 ## A brief foray into GitHub
 
@@ -503,6 +486,27 @@ Your closest collaborator is you six months ago, but you don’t reply to emails
 - Happy Git with R by Jenny Bryan: http://happygitwithr.com/
 
 - Try Git: https://try.github.io
+
+
+# Departmental computing resources
+
+## Departmental computing resources
+
+- Graduate student computers are shared departmental resources
+    + You'll be assigned a desktop to which you have priority, but it may 
+    be used by others as well (and you can use others' later if needed -- 
+    more on this later)
+
+- Dedicated servers: 
+    + `gort`: Undergrad
+    + `saxon`: MS
+    + `smith`: PhD
+    
+- Home directories are all network shared and backed up
+
+- DSS computing inventory: https://www2.stat.duke.edu/lib/computer_inventory.php
+
+
 
 # Acknowledgements
 
