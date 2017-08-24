@@ -1,6 +1,6 @@
 ---
 title: "DSS Comptuing Bootcamp"
-author: "Mine Çetinkaya-Rundel and Colin Rundel"
+author: "Mine Çetinkaya-Rundel and Colinsi Rundel"
 date: "Aug 24, 2017"
 output:
   ioslides_presentation:
