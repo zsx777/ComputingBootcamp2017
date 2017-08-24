@@ -1,14 +1,14 @@
 # DSS Computing Bootcamp
 
-This is a 3 hour computing bootcamp for incoming PhD, MSS, and MSEM
+This is a 3 hour computing bootcamp for incoming PhD and MS
 students to the Department of Statistical Science at Duke University.
 
 The workshop will cover the following topics:
 
 ## Introduction to the department computing eco-system
 
-- Set up accounts on the department server
-- Discuss how to responsibly use distributed computing resources.
+- Account activation and access to departmental servers.
+- Discussion of how to responsibly use distributed computing resources.
 
 ## Introduction to Reproducible Research
 
