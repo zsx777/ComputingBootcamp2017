@@ -30,7 +30,6 @@ gap <- read.csv("https://bit.ly/gap_data")
 How many observations are in this dataset?
 
 ```{r nrow}
-nrow(gap)
 ```
 
 ### Exercise 2
@@ -39,10 +38,6 @@ Visualize the relationship between GDP and life expectancy for
 countries in Europe in 1952 using a scatter plot.
 
 ```{r eu_52}
-eu_52 <- gap %>%
-  filter(continent == "Europe", year == 1952)
-ggplot(data = eu_52, aes(x = gdpPercap, y = lifeExp)) +
-  geom_point()  
 ```
 
 ### Exercise 3
@@ -50,6 +45,5 @@ ggplot(data = eu_52, aes(x = gdpPercap, y = lifeExp)) +
 Add year 1967 in another color.
 
 ```{r eu_52_67}
-# enter code for this exercise here
 ```
 
